@@ -21,7 +21,9 @@
         Entrada: 
             temperatura, dolorCabeza, dearrea, fatiga
         
-        Proceso: 
+        Proceso:
+        si temperatura < 30 && < 55 && temperatura != ""
+        entocnes mandar error
             Si temperatura >= 37 && dolorCabeza 
                 entocnes "60%"
             Si temperatura >= 37 && dolorCabeza && dearrea 
@@ -33,7 +35,6 @@
 
 */
 
-
 /*  
 
     Deseo validad que el usuario no ingrese una temperatura menor a 30
@@ -43,8 +44,6 @@
     Al final de mi test, debo reiniciar la pagina. 
 
 */
-
-
 
 
 
