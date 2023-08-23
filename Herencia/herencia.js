@@ -4,7 +4,7 @@ class Animal {
     }
   
     saludar() {
-      console.log(`Hola, soy un animal llamado ${this.nombre}.`);
+      console.log(`Hola,${this.nombre}. soy un animal llamado `);
     }
   }
   
@@ -36,3 +36,8 @@ class Animal {
   miPerro.saludar(); // Salida: Guau, guau, soy un perro llamado Fido de raza Labrador.
   miGato.saludar();  // Salida: Miau, soy un gato llamado Garfield de color naranja.
   
+
+  // crear funcion para sumar dos numeros 
+  function sumar(a, b) {
+      return a + b
+  }
