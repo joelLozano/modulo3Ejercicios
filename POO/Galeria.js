@@ -31,15 +31,4 @@ galeria.forEach(x => {
     console.log(x.titulo)
 });
 
-function sumar() {
-    return 1 + 1
-}
 
-
-const addd = function () {
-    return 1+1 
-}
-
-const adddd = () => {
-    return 1+1 
-}
