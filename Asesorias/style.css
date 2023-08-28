@@ -1,0 +1,18 @@
+.colorFondo {
+    font-size: 25px;
+    background-color: #958e8e;
+}
+
+/* Mobile fist  */
+@media screen and (min-width: 450px) {
+    .colorFondo {
+        background-color: red;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .colorFondo {
+        background-color: rgb(0, 204, 255);
+    }
+}
