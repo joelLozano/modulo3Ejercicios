@@ -1,3 +1,4 @@
+localStorage.clear()
 class Alumno {
     constructor(nombre, edad, matricula) {
         this.nombre = nombre;
@@ -31,7 +32,7 @@ let grupo1 = new Grupo("1A", alumnos, ["matematicas", "español", "historia"]);
 //let grupo2 = new Grupo("2B", alumnos, ["Historia", "Ciencias Naturales", "historia"]);
 
 
-function inscribirAlumno(grupo) {
+function inscribirAlumno() {
     // obtener datos del alumno u crear un objeto de tipo Alumno
     // para obtener los datos de un alumno lo podemos hacer mediante el html.
     // OJO: es ejemplo, esto dara un error porque no encuentra el html
@@ -43,12 +44,15 @@ function inscribirAlumno(grupo) {
     
     // para probar , comenta el codigo anterior linea 39 a 42 y descomenta la linea 45
     //let newAlumno = new Alumno("Luis", 29, "15558");
-
     // uma vez que tengo el nuevo alunmo lo agrego al grupo
-    grupo.alumnos.push(newAlumno);
-
-    console.log(grupo);
+    grupo1.alumnos.push(newAlumno);
+    console.log(grupo1);
+    document.getElementById("succes-message").setAttribute("style", "display:block");
 
 }
 
-inscribirAlumno(grupo1);
+
+function mostrarAlumnos() {
+    document.getElementById("alumnos").textContent = alumno;
+    console.log(alumno);
+}

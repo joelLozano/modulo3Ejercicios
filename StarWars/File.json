@@ -1,0 +1,88 @@
+{
+    "personajesStarWars": [
+    {
+      "nombre": "Luke Skywalker",
+      "edad": 19,
+      "genero": "Masculino",
+      "especie": "Humano",
+      "peliculas": ["Una Nueva Esperanza", "El Imperio Contraataca", "El Retorno del Jedi"]
+    },
+    {
+      "nombre": "Leia Organa",
+      "edad": 19,
+      "genero": "Femenino",
+      "especie": "Humano",
+      "peliculas": ["Una Nueva Esperanza", "El Imperio Contraataca", "El Retorno del Jedi"]
+    },
+    {
+      "nombre": "Darth Vader",
+      "edad": 45,
+      "genero": "Masculino",
+      "especie": "Humano",
+      "peliculas": ["Una Nueva Esperanza", "El Imperio Contraataca", "El Retorno del Jedi"]
+    },
+    {
+        "nombre": "Han Solo",
+        "edad": 29,
+        "genero": "Masculino",
+        "especie": "Humano",
+        "peliculas": ["Una Nueva Esperanza", "El Imperio Contraataca", "El Retorno del Jedi"]
+      },
+      {
+        "nombre": "Princesa Leia",
+        "edad": 29,
+        "genero": "Femenino",
+        "especie": "Humano",
+        "peliculas": ["Una Nueva Esperanza", "El Imperio Contraataca", "El Retorno del Jedi"]
+      },
+      {
+        "nombre": "Yoda",
+        "edad": 900,
+        "genero": "Masculino",
+        "especie": "Desconocida",
+        "peliculas": ["El Imperio Contraataca", "El Retorno del Jedi", "La Amenaza Fantasma", "El Ataque de los Clones", "La Venganza de los Sith"]
+      },
+      {
+        "nombre": "Obi-Wan Kenobi",
+        "edad": 57,
+        "genero": "Masculino",
+        "especie": "Humano",
+        "peliculas": ["Una Nueva Esperanza", "El Imperio Contraataca", "El Retorno del Jedi", "La Amenaza Fantasma", "El Ataque de los Clones", "La Venganza de los Sith"]
+      },
+      {
+        "nombre": "Chewbacca",
+        "edad": 200,
+        "genero": "Masculino",
+        "especie": "Wookiee",
+        "peliculas": ["Una Nueva Esperanza", "El Imperio Contraataca", "El Retorno del Jedi", "La Amenaza Fantasma", "El Ataque de los Clones", "La Venganza de los Sith"]
+      },
+      {
+        "nombre": "R2-D2",
+        "edad": 33,
+        "genero": "Masculino",
+        "especie": "Droide",
+        "peliculas": ["Una Nueva Esperanza", "El Imperio Contraataca", "El Retorno del Jedi", "La Amenaza Fantasma", "El Ataque de los Clones", "La Venganza de los Sith"]
+      },
+      {
+        "nombre": "C-3PO",
+        "edad": 33,
+        "genero": "Masculino",
+        "especie": "Droide",
+        "peliculas": ["Una Nueva Esperanza", "El Imperio Contraataca", "El Retorno del Jedi", "La Amenaza Fantasma", "El Ataque de los Clones", "La Venganza de los Sith"]
+      },
+      {
+        "nombre": "Anakin Skywalker",
+        "edad": 41,
+        "genero": "Masculino",
+        "especie": "Humano",
+        "peliculas": ["La Amenaza Fantasma", "El Ataque de los Clones", "La Venganza de los Sith"]
+      },
+      {
+        "nombre": "Padmé Amidala",
+        "edad": 27,
+        "genero": "Femenino",
+        "especie": "Humano",
+        "peliculas": ["La Amenaza Fantasma", "El Ataque de los Clones", "La Venganza de los Sith"]
+      }
+  ]
+}
