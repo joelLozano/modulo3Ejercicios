@@ -12,29 +12,81 @@
 <body>
 
     <nav>
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
+        <div class="container mt-5">
+            <div class="row text-center">
+                <div class="col">
                     <h1>Buscador StarWars</h1>
                 </div>
             </div>
         </div>
     </nav>
     <section>
-        <div class="container">
-            <div class="row">
+        <div class="container mt-5 mb-5">
+            <div class="row text-center">
                 <div class="col">
-                    <input type="text" placeholder="R2D2">
-                    <button class="btn btn-success" onclick="mostrarDatos()">Buscar</button>
+                    <input type="text" placeholder="R2D2" id="searchItem">
+                    <button class="btn btn-success" onclick="buscarPersonaje()">Buscar</button>
                 </div>
             </div>
         </div>
     </section>
 
+    <div class="container">
+        <div class="row text-center justify-content-center">
+            <div class="col-2">
+                <button class="btn btn-success" onclick="mostrarDatos()">Mostrar personajes</button>
+            </div>
+            <div class="col-2">
+                <button class="btn btn-primary" onclick="ordenarAlfabeticamente()">Ordenar personajes</button>
+            </div>
+
+            <div class="col-2">
+                <button class="btn btn-warning" onclick="mostrarFormulario()">Agregar personaje</button>
+            </div>
+        </div>
+    </div>
+
     <!-- secion de resultados -->
     <section class="resultados">
         <div class="container">
-            <div class="row" id="results">
+               <div class="row text-center justify-content-center">
+                <div class="col-6 ">
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Edad</th>
+                            <th scope="col">Genero</th>
+                          </tr>
+                        </thead>
+                        <tbody id="results">
+                        
+                        </tbody>
+                      </table>
+
+                      <div id="showError"></div>
+                </div>
+               </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="mt-5" id="formPersonaje">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <input class="form-control form-control-sm mt-1" type="text" id="nombre"  placeholder="nombre" aria-label=".form-control-sm example">
+                    <input class="form-control form-control-sm mt-1" type="text" id="genero"  placeholder="genero" aria-label=".form-control-sm example">
+                    <input class="form-control form-control-sm mt-1" type="text" id="especie" placeholder="especie" aria-label=".form-control-sm example">
+                    <input class="form-control form-control-sm mt-1" type="number" id="edad" placeholder="edad" aria-label=".form-control-sm example">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button class="btn btn-success text-center mt-2" onclick="nuevoPersonaje()">Agregar</button>
+                </div>
             </div>
         </div>
     </section>
