@@ -1,4 +1,4 @@
-// algortimo de busqueda usando el metodo de burbuja
+// algortimo de ordenamiento usando el metodo de burbuja
 // 1. Comparar el primer elemento con el segundo
 // 2. Si el primer elemento es mayor que el segundo, se intercambian.
 // 3. Luego se compara el segundo con el tercero y se intercambian si el segundo es mayor que el tercero.

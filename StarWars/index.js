@@ -78,7 +78,8 @@ function ocultarFormulario() {
 
 function buscarPersonaje() {
     let personajeAbuscar = document.getElementById("searchItem").value
-    let datosFiltrados = datos.personajesStarWars.filter( personaje => personaje.nombre.includes(personajeAbuscar) )
+    const nombreCapitalize = personajeAbuscar.charAt(0).toUpperCase() + personajeAbuscar.slice(1);
+    let datosFiltrados = datos.personajesStarWars.filter( personaje => personaje.nombre.includes(nombreCapitalize) )
     if (datosFiltrados.length == 0) {
         document.getElementById("showError").innerHTML = `
         <div class="alert alert-danger" role="alert">
